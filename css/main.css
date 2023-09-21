@@ -2465,7 +2465,7 @@ Page
 @media (min-width: 75rem) {
   .big-title,
   .big-title--single {
-    margin: 0 -100% 70px;
+    margin: 0 -100% 120px;
   }
 }
 @media (max-width: 47.9375rem) {
@@ -4341,3 +4341,19 @@ Visual Composer
 }
 
 
+
+@media (max-width: 768px) {
+  .mb-120 {
+  margin-bottom: 70px;
+  }
+}
+
+@media (min-width: 769px) {
+  .mb-120 {
+  margin-bottom: 120px;
+  }
+}
+
+.intro .title {
+  font-size: 24px;
+}
